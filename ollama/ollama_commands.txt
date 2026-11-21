@@ -1,0 +1,42 @@
+
+# ==============================================
+# EDUCAREER AI - OLLAMA COMMANDS
+# ==============================================
+
+# STEP 1: Check installed Ollama version
+ollama --version
+
+# STEP 2: List downloaded Ollama models
+ollama list
+
+# STEP 3: Download the base model
+ollama pull llama3.2:1b
+
+# STEP 4: Display base model information
+ollama show llama3.2:1b
+
+# STEP 5: Create custom EduCareer AI model
+# Run this command from the folder containing Modelfile
+ollama create educareer-ai -f Modelfile
+
+# STEP 6: Verify custom model creation
+ollama list
+
+# STEP 7: Display custom model information
+ollama show educareer-ai
+
+# STEP 8: Run your custom EduCareer AI model
+ollama run educareer-ai
+
+# STEP 9: Start Ollama server if it is not already running
+ollama serve
+
+# STEP 10: Test local Ollama API
+curl http://localhost:11434/api/tags
+
+# STEP 11: Exit the running model
+/bye
+
+# ==============================================
+# END OF EDUCAREER AI OLLAMA COMMANDS
+# ==============================================

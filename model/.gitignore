@@ -1,0 +1,23 @@
+# Python environment
+slm_env/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Model checkpoints and large model files
+educareer_checkpoints/
+EduCareer_AI_Model/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Temporary files
+*.log
+.DS_Store
+
+# Secrets
+.env
